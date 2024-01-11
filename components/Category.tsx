@@ -5,16 +5,31 @@ const Category = ({ label }: { label: string }) => {
   const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/karamel/'
 
   const categories = [
-    { label: 'Hot Drinks', image: baseUrl + 'hot drink.jpg' },
-    { label: 'Tea and more', image: baseUrl + 'cold drinks.jpg' },
-    { label: 'Ice Coffee', image: baseUrl + 'karnel hot drinks.jpg' },
-    { label: 'Ice Tea', image: baseUrl + 'iced cold drinks.jpg' },
+    {
+      label: 'Hot Drinks',
+      image:
+        'https://realfood.tesco.com/media/images/1400x919-Mince-Pie-Chai-Latte-cd056624-8c38-4292-b8fd-38d744470942-0-1400x919.jpg',
+    },
+    { label: 'Tea and more', image: baseUrl + 'karnel hot drinks.jpg' },
+    { label: 'Ice Coffee', image: baseUrl + 'cold drinks.jpg' },
+    {
+      label: 'Ice Tea',
+      image: `https://farshaxan.blr1.cdn.digitaloceanspaces.com/silver/283A2886.JPG`,
+    },
     {
       label: 'Frappuccino',
-      image: baseUrl + 'desserts and pastries.jpg',
+      image:
+        'https://www.togethertoeat.com/wp-content/uploads/2023/07/Homemade-Frappuccinos-make-frappuccino-at-home.jpg',
     },
-    { label: 'Smoothie', image: baseUrl + 'Breakfast.jpg' },
-    { label: 'Bakery', image: baseUrl + 'Chicken.jpg' },
+    {
+      label: 'Smoothie',
+      image: `https://farshaxan.blr1.cdn.digitaloceanspaces.com/silver/283A2813.JPG`,
+    },
+    {
+      label: 'Bakery',
+      image:
+        'https://www.snackandbakery.com/ext/resources/images/bakeryproducts.jpg?1432238179',
+    },
   ]
 
   const item = categories?.find(
