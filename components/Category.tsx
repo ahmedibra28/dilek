@@ -11,7 +11,11 @@ const Category = ({ label }: { label: string }) => {
         'https://realfood.tesco.com/media/images/1400x919-Mince-Pie-Chai-Latte-cd056624-8c38-4292-b8fd-38d744470942-0-1400x919.jpg',
     },
     { label: 'Tea and more', image: baseUrl + 'karnel hot drinks.jpg' },
-    { label: 'Ice Coffee', image: baseUrl + 'cold drinks.jpg' },
+    {
+      label: 'Ice Coffee',
+      image:
+        'https://images.immediate.co.uk/production/volatile/sites/2/2021/08/coldbrew-iced-latte-with-my-recipe-photo-by-@ellamiller_photo-f1e3d9e.jpg?quality=90&webp=true&resize=300,272',
+    },
     {
       label: 'Ice Tea',
       image: `https://farshaxan.blr1.cdn.digitaloceanspaces.com/silver/283A2886.JPG`,
