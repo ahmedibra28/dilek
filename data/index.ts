@@ -110,7 +110,7 @@ const data = [
   {
     category: 'Ice Coffee',
     item: 'iced spanish latte ',
-    image: '283A0276.JPG',
+    image: '283A0276 (1).JPG',
     price: 2,
   },
   {
@@ -140,13 +140,13 @@ const data = [
   {
     category: 'Frappuccino',
     item: 'Caramel cafe frappe',
-    image: '283A0276.JPG',
+    image: '283A0276 (1).JPG',
     price: 3,
   },
   {
     category: 'Frappuccino',
     item: 'vanilla cafe frappe',
-    image: '283A0276.JPG',
+    image: '283A0276 (1).JPG',
     price: 3,
   },
   {
@@ -182,7 +182,7 @@ const data = [
   {
     category: 'Smoothie',
     item: 'Strawberry smoothie',
-    image: '283A4253.JPG',
+    image: '283A4253.jpg',
     price: 3,
   },
   {
@@ -200,85 +200,85 @@ const data = [
   {
     category: 'Bakery',
     item: 'Acma Cheese',
-    image: '283A4413.JPG',
+    image: '283A4413.jpg',
     price: 1.25,
   },
   {
     category: 'Bakery',
     item: 'Acma Plain',
-    image: '283A4321.JPG',
+    image: '283A4321.jpg',
     price: 1,
   },
   {
     category: 'Bakery',
     item: 'Acma olive',
-    image: '283A4389.JPG',
+    image: '283A4389.jpg',
     price: 1.25,
   },
   {
     category: 'Bakery',
     item: 'Wet Cake ',
-    image: '283A4342.JPG',
+    image: '283A4342.jpg',
     price: 1.5,
   },
   {
     category: 'Bakery',
     item: 'Pogaca Plain',
-    image: '283A4270.JPG',
+    image: '283A4270.jpg',
     price: 1,
   },
   {
     category: 'Bakery',
     item: 'Pogaca Cheese',
-    image: '283A4405.JPG',
+    image: '283A4405.jpg',
     price: 1.25,
   },
   {
     category: 'Bakery',
     item: 'Carrot Cake',
-    image: '283A4369.JPG',
+    image: '283A4369.jpg',
     price: 1.5,
   },
   {
     category: 'Bakery',
     item: 'Profiterole',
-    image: '283A4343.JPG',
+    image: '283A4343.jpg',
     price: 2,
   },
   {
     category: 'Bakery',
     item: 'Simit',
-    image: '283A4307.JPG',
+    image: '283A4307.jpg',
     price: 1,
   },
   {
     category: 'Bakery',
     item: 'Donut ',
-    image: '283A4392.JPG',
+    image: '283A4392.jpg',
     price: 2,
   },
   {
     category: 'Bakery',
     item: 'Apple Pie',
-    image: '283A4409.JPG',
+    image: '283A4409.jpg',
     price: 2,
   },
   {
     category: 'Bakery',
     item: 'Orange Cookies',
-    image: '283A4281.JPG',
+    image: '283A4281.jpg',
     price: 1.5,
   },
   {
     category: 'Bakery',
     item: 'Cupcake',
-    image: '283A4330.JPG',
+    image: '283A4330.jpg',
     price: 1.5,
   },
   {
     category: 'Bakery',
     item: 'Chocolate Donut ',
-    image: '283A4386.JPG',
+    image: '283A4386.jpg',
     price: 2,
   },
 ]
