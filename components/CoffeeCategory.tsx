@@ -1,7 +1,7 @@
 import React from 'react'
 import BlurImage from './BlurImage'
 
-const Category = ({ label }: { label: string }) => {
+const CoffeeCategory = ({ label }: { label: string }) => {
   const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/karamel/'
 
   const categories = [
@@ -34,6 +34,11 @@ const Category = ({ label }: { label: string }) => {
       image:
         'https://www.snackandbakery.com/ext/resources/images/bakeryproducts.jpg?1432238179',
     },
+    {
+      label: 'Mojito',
+      image:
+        'https://farshaxan.blr1.cdn.digitaloceanspaces.com/silver/283A2858.JPG',
+    },
   ]
 
   const item = categories?.find(
@@ -61,4 +66,4 @@ const Category = ({ label }: { label: string }) => {
   )
 }
 
-export default Category
+export default CoffeeCategory

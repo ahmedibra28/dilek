@@ -1,4 +1,4 @@
-import Category from '../components/Category'
+import Category from '../components/CoffeeCategory'
 import { getCategories } from '@/data'
 import Link from 'next/link'
 import BlurImage from '@/components/BlurImage'
@@ -22,8 +22,8 @@ export default async function Home() {
         OUR MENU
       </div>
 
-      <div className='flex flex-wrap justify-between items-center gap-y-5'>
-        {Array.from(new Set(getCategories())).map((category, i: number) => (
+      <div className='flex flex-wrap justify-between items-center gap-5 p-5'>
+        {/* {Array.from(new Set(getCategories())).map((category, i: number) => (
           <div
             key={i}
             className='w-[48%] md:w-[30%] lg:w-[19%] mx-auto m-auto text-center duration-1000'
@@ -32,7 +32,24 @@ export default async function Home() {
               <Category label={category} />
             </Link>
           </div>
-        ))}
+        ))} */}
+
+        <Link
+          href='/restaurant'
+          className='w-full md:w-[40%] h-52 lg:h-64 bg-gray-200 flex flex-col justify-center items-center rounded'
+        >
+          <span className='uppercase font-bold text-my-primary text-3xl'>
+            Restaurant
+          </span>
+        </Link>
+        <Link
+          href='/coffee'
+          className='w-full md:w-[40%] h-52 lg:h-64 bg-gray-200 flex flex-col justify-center items-center rounded'
+        >
+          <span className='uppercase font-bold text-my-primary text-3xl'>
+            Coffee
+          </span>
+        </Link>
       </div>
     </main>
   )

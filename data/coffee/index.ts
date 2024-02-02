@@ -38,7 +38,7 @@ const data = [
   {
     category: 'Hot Drinks',
     item: 'Moche',
-    image: '283A9638.JPG',
+    image: '283A9611.JPG',
     price: 2.5,
   },
   {
@@ -86,19 +86,19 @@ const data = [
   {
     category: 'Ice Coffee',
     item: 'iced cappuccino',
-    image: '283A0382.JPG',
+    image: '283A0376.JPG',
     price: 2,
   },
   {
     category: 'Ice Coffee',
     item: 'iced latte',
-    image: '283A0284.JPG',
+    image: '283A0370.JPG',
     price: 2,
   },
   {
     category: 'Ice Coffee',
     item: 'iced mocha',
-    image: '283A0264.JPG',
+    image: '283A0394.JPG',
     price: 2,
   },
   {
@@ -110,7 +110,7 @@ const data = [
   {
     category: 'Ice Coffee',
     item: 'iced spanish latte ',
-    image: '283A0276 (1).JPG',
+    image: '283A0384.JPG',
     price: 2,
   },
   {
@@ -128,13 +128,13 @@ const data = [
   {
     category: 'Ice Tea',
     item: 'Peach Iced Tea',
-    image: 'DSC02212.JPG',
+    image: 'DSC02247.JPG',
     price: 2.5,
   },
   {
     category: 'Ice Tea',
     item: 'mango Iced Tea',
-    image: 'DSC02247.JPG',
+    image: '283A0349.JPG',
     price: 2.5,
   },
   {
@@ -146,7 +146,7 @@ const data = [
   {
     category: 'Frappuccino',
     item: 'vanilla cafe frappe',
-    image: '283A0276 (1).JPG',
+    image: '283A0274.JPG',
     price: 3,
   },
   {
@@ -280,6 +280,47 @@ const data = [
     item: 'Chocolate Donut ',
     image: '283A4386.jpg',
     price: 2,
+  },
+
+  { category: 'Bakery', item: 'Basbousa', image: '283A8955.jpg', price: 1.5 },
+  {
+    category: 'Bakery',
+    item: 'Sweet Cookies',
+    image: '283A4259.jpg',
+    price: 1.5,
+  },
+  { category: 'Bakery', item: 'Swiss roll', image: '283A8902.jpg', price: 3 },
+  {
+    category: 'Bakery',
+    item: 'Cinnamon roll',
+    image: '283A9954.jpg',
+    price: 2,
+  },
+  { category: 'Bakery', item: 'Moist cake', image: '283A8935.jpg', price: 3 },
+
+  {
+    category: 'Mojito',
+    item: 'Classic Mojito',
+    image: 'DSC02155.jpg',
+    price: 2,
+  },
+  {
+    category: 'Mojito',
+    item: 'Strawberry Mojito',
+    image: 'DSC02176.jpg',
+    price: 2.5,
+  },
+  {
+    category: 'Mojito',
+    item: 'Blueberry Mojito',
+    image: 'DSC02192.jpg',
+    price: 2.5,
+  },
+  {
+    category: 'Mojito',
+    item: 'Peach Mojito',
+    image: 'DSC02212.jpg',
+    price: 2.5,
   },
 ]
 

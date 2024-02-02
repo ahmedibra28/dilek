@@ -7,7 +7,7 @@ interface ItemProp {
   price: number | string
   image: string
 }
-const Item = ({ item }: { item: ItemProp }) => {
+const CoffeeItem = ({ item }: { item: ItemProp }) => {
   return (
     <div className='card shadow-xl mx-auto bg-white text-gray-700 h-72'>
       <figure>
@@ -35,4 +35,4 @@ const Item = ({ item }: { item: ItemProp }) => {
   )
 }
 
-export default Item
+export default CoffeeItem

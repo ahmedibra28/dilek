@@ -1,7 +1,7 @@
 'use client'
 
-import Item from '../../components/Item'
-import { getItemsByCategory } from '@/data'
+import RestaurantItem from '@/components/RestaurantItem'
+import { getItemsByCategory } from '@/data/restaurant'
 import { useParams } from 'next/navigation'
 
 export default function Category() {
@@ -17,7 +17,7 @@ export default function Category() {
         {getItemsByCategory(reverseSlugGenerator(slug)).map(
           (category, i: number) => (
             <div key={i} className='w-[48%] md:w-[30%] lg:w-[24%] mx-auto'>
-              <Item item={category} />
+              <RestaurantItem item={category} />
             </div>
           )
         )}
