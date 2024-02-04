@@ -8,8 +8,6 @@ export default async function Home() {
     return text.toLowerCase().split(' ').join('-')
   }
 
-  console.log(Array.from(new Set(getCategories()))?.map((item) => item))
-
   return (
     <main className='max-w-6xl mx-auto py-5 px-2 md:p-5'>
       <BlurImage

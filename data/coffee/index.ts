@@ -282,45 +282,145 @@ const data = [
     price: 2,
   },
 
-  { category: 'Bakery', item: 'Basbousa', image: '283A8955.jpg', price: 1.5 },
+  { category: 'Bakery', item: 'Basbousa', image: '283A8955.JPG', price: 1.5 },
   {
     category: 'Bakery',
     item: 'Sweet Cookies',
     image: '283A4259.jpg',
     price: 1.5,
   },
-  { category: 'Bakery', item: 'Swiss roll', image: '283A8902.jpg', price: 3 },
+  { category: 'Bakery', item: 'Swiss roll', image: '283A8902.JPG', price: 3 },
   {
     category: 'Bakery',
     item: 'Cinnamon roll',
-    image: '283A9954.jpg',
+    image: '283A9954.JPG',
     price: 2,
   },
-  { category: 'Bakery', item: 'Moist cake', image: '283A8935.jpg', price: 3 },
+  { category: 'Bakery', item: 'Moist cake', image: '283A8935.JPG', price: 3 },
 
   {
     category: 'Mojito',
     item: 'Classic Mojito',
-    image: 'DSC02155.jpg',
+    image: 'DSC02155.JPG',
     price: 2,
   },
   {
     category: 'Mojito',
     item: 'Strawberry Mojito',
-    image: 'DSC02176.jpg',
+    image: 'DSC02176.JPG',
     price: 2.5,
   },
   {
     category: 'Mojito',
     item: 'Blueberry Mojito',
-    image: 'DSC02192.jpg',
+    image: 'DSC02192.JPG',
     price: 2.5,
   },
   {
     category: 'Mojito',
     item: 'Peach Mojito',
-    image: 'DSC02212.jpg',
+    image: 'DSC02212.JPG',
     price: 2.5,
+  },
+
+  {
+    category: 'Turkish Milky Desserts',
+    item: 'Profiterole',
+    image: '283A4343.jpg',
+    price: 2,
+  },
+  {
+    category: 'Turkish Milky Desserts',
+    item: 'Rice Pudding',
+    image: '283A8873.JPG',
+    price: 2,
+  },
+  {
+    category: 'Turkish Milky Desserts',
+    item: 'Kaskul',
+    image: '283A9945.JPG',
+    price: 2,
+  },
+  {
+    category: 'Turkish Milky Desserts',
+    item: 'kazandibi',
+    image: '283A0306.JPG',
+    price: 2,
+  },
+  {
+    category: 'Turkish Milky Desserts',
+    item: 'Caramel Dream',
+    image: '283A8864.JPG',
+    price: 2,
+  },
+
+  {
+    category: 'Magnolia',
+    item: 'Magnolia strawberry',
+    image: '283A8883.JPG',
+    price: 3,
+  },
+  {
+    category: 'Magnolia',
+    item: 'Magnolia oreo',
+    image: '283A0297.JPG',
+    price: 3,
+  },
+
+  {
+    category: 'Trilice',
+    item: 'Raspberry Trilice',
+    image: '283A8870.JPG',
+    price: 3,
+  },
+  {
+    category: 'Trilice',
+    item: 'Caramel Trilice',
+    image: '283A8864.JPG',
+    price: 3,
+  },
+
+  {
+    category: 'Slice cakes',
+    item: 'Bamboo strawberry cake',
+    image: '283A8915.JPG',
+    price: 3,
+  },
+  {
+    category: 'Slice cakes',
+    item: 'Bamboo pistachio cake',
+    image: '283A8908.JPG',
+    price: 3,
+  },
+  {
+    category: 'Slice cakes',
+    item: 'Bamboo nescafe cake',
+    image: '283A8812.JPG',
+    price: 3,
+  },
+  {
+    category: 'Slice cakes',
+    item: 'Bamboo orange cake',
+    image: '283A8828.JPG',
+    price: 3,
+  },
+  {
+    category: 'Slice cakes',
+    item: 'Heart cake',
+    image: '283A0318.JPG',
+    price: 3,
+  },
+  {
+    category: 'Slice cakes',
+    item: 'Chatoh strawberry',
+    image: '283A0293.JPG',
+    price: 3,
+  },
+  {
+    category: 'Slice cakes',
+    item: 'banana chocolate Malaga',
+    image: '283A0293.JPG',
+    price: 3,
   },
 ]
 
