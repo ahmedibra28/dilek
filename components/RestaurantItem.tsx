@@ -9,7 +9,7 @@ interface ItemProp {
 }
 const RestaurantItem = ({ item }: { item: ItemProp }) => {
   return (
-    <div className='card shadow-xl mx-auto bg-white text-gray-700 h-72'>
+    <div className='card shadow-xl mx-auto bg-gray-900 text-gray-100 h-72'>
       <figure>
         <BlurImage
           src={item.image}
