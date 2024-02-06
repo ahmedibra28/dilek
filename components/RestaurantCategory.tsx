@@ -2,22 +2,22 @@ import React from 'react'
 import BlurImage from './BlurImage'
 
 const RestaurantCategory = ({ label }: { label: string }) => {
-  const noImageAvailable =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
+  // const noImageAvailable =
+  //   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
 
-  // const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/karamel/'
+  const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/dilek/'
 
   const categories = [
-    { label: 'BREAKFAST', image: noImageAvailable },
-    { label: 'STATER SOUP', image: noImageAvailable },
-    { label: 'SALADS', image: noImageAvailable },
-    { label: 'PASTA MENU', image: noImageAvailable },
-    { label: 'CHICKEN MENU', image: noImageAvailable },
-    { label: 'MEAT MENU', image: noImageAvailable },
-    { label: 'PIZZA', image: noImageAvailable },
-    { label: 'BURGERS ', image: noImageAvailable },
-    { label: 'WRAPS AND SANDWICHES', image: noImageAvailable },
-    { label: 'DRINKS', image: noImageAvailable },
+    { label: 'BREAKFAST', image: baseUrl + '283A0396.JPG' },
+    { label: 'STATER SOUP', image: baseUrl + '283A0336.JPG' },
+    { label: 'SALADS', image: baseUrl + '283A8606.JPG' },
+    { label: 'PASTA MENU', image: baseUrl + '283A0459.JPG' },
+    { label: 'CHICKEN MENU', image: baseUrl + '283A0405.JPG' },
+    { label: 'MEAT MENU', image: baseUrl + '283A0179.JPG' },
+    { label: 'PIZZA', image: baseUrl + '283A9960.JPG' },
+    { label: 'BURGERS ', image: baseUrl + '283A0340.JPG' },
+    { label: 'WRAPS AND SANDWICHES', image: baseUrl + '283A0199.JPG' },
+    { label: 'DRINKS', image: baseUrl + '283A9897.JPG' },
   ]
 
   const item = categories?.find(
