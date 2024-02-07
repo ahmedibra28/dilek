@@ -188,7 +188,7 @@ const data = [
   {
     category: 'MEAT MENU',
     item: 'Lamb tandoori',
-    image: '283A0187.JPG',
+    image: 'Lamb tandoori.JPG',
     price: 10.5,
   },
   {

@@ -3,6 +3,8 @@ import BlurImage from './BlurImage'
 
 const CoffeeCategory = ({ label }: { label: string }) => {
   const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/karamel/'
+  const dilekBaseUrl =
+    'https://farshaxan.blr1.cdn.digitaloceanspaces.com/dilek/'
 
   const noImageAvailable =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
@@ -44,19 +46,19 @@ const CoffeeCategory = ({ label }: { label: string }) => {
     },
     {
       label: 'Turkish Milky Desserts',
-      image: noImageAvailable,
+      image: dilekBaseUrl + 'Turkish Milk Desserts.jpg',
     },
     {
       label: 'Magnolia',
-      image: noImageAvailable,
+      image: dilekBaseUrl + 'Magnolia.JPG',
     },
     {
       label: 'Trilice',
-      image: noImageAvailable,
+      image: dilekBaseUrl + 'Trilice.JPG',
     },
     {
       label: 'Slice cakes',
-      image: noImageAvailable,
+      image: dilekBaseUrl + 'Slice cakes.JPG',
     },
   ]
 
