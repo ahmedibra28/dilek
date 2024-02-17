@@ -13,9 +13,9 @@ const RestaurantCategory = ({ label }: { label: string }) => {
     { label: 'SALADS', image: baseUrl + '283A8606.JPG' },
     { label: 'PASTA MENU', image: baseUrl + '283A0459.JPG' },
     { label: 'CHICKEN MENU', image: baseUrl + '283A0405.JPG' },
-    { label: 'MEAT MENU', image: baseUrl + '283A0179.JPG' },
-    { label: 'PIZZA', image: baseUrl + '283A9960.JPG' },
-    { label: 'BURGERS ', image: baseUrl + '283A0340.JPG' },
+    { label: 'MEAT MENU', image: baseUrl + '283A0173.JPG' },
+    { label: 'SPECIAL PIZZA', image: baseUrl + '283A9960.JPG' },
+    { label: 'BURGERS ', image: baseUrl + '283A0349.JPG' },
     { label: 'WRAPS AND SANDWICHES', image: baseUrl + '283A0199.JPG' },
     { label: 'DRINKS', image: baseUrl + '283A9897.JPG' },
   ]
