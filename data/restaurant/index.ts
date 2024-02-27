@@ -156,7 +156,7 @@ const data = [
     item: 'Chicken with Soya Sauce',
     image: '283A0431.JPG',
     price: 7,
-    description: 'chicken, vegetables, rice, sunflower oil,  gr salt',
+    description: 'chicken, vegetables, rice, sunflower oil',
   },
   {
     category: 'CHICKEN MENU',
@@ -367,7 +367,7 @@ const data = [
   },
   {
     category: 'DRINKS',
-    item: 'Grey fruit',
+    item: 'Grape fruit',
     image: '283A9913.JPG',
     price: 2,
     description: '',
