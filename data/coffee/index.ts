@@ -24,7 +24,7 @@ const data = [
     category: 'Hot Drinks',
     item: 'Spanish Latte',
     description: 'espresso, condensed milk , milk',
-    image: '283A9611.JPG',
+    image: '283A9672.JPG',
     price: 2.5,
   },
   {
@@ -163,8 +163,7 @@ const data = [
   {
     category: 'Frappuccino',
     item: 'Caramel cafe frappe',
-    description:
-      'vanilla frappe powder, caramel sauce monin, espresso, milk, ice',
+    description: 'vanilla frappe powder, caramel sauce, espresso, milk, ice',
     image: '283A0276 (1).JPG',
     price: 3,
   },
@@ -235,7 +234,7 @@ const data = [
     category: 'Smoothie',
     item: 'Mango smoothie',
     description: 'yogurt powder monin, mango puree, milk,',
-    image: '283A0297.JPG',
+    image: '283A0340.jpg',
     price: 3,
   },
   {
@@ -256,7 +255,7 @@ const data = [
     category: 'Smoothie',
     item: 'Peach Smoothie',
     description: 'yogurt powder monin, peach puree, milk , ice',
-    image: '283A0340.JPG',
+    image: '283A0297.JPG',
     price: 3,
   },
   {
@@ -295,12 +294,12 @@ const data = [
     image: '283A8870.JPG',
     price: 3,
   },
-  {
-    category: 'Trilice',
-    item: 'Caramel Trilice',
-    image: '283A8864.JPG',
-    price: 3,
-  },
+  // {
+  //   category: 'Trilice',
+  //   item: 'Caramel Trilice',
+  //   image: '283A8864.JPG',
+  //   price: 3,
+  // },
   {
     category: 'Bakery',
     item: 'Acma Cheese',
@@ -349,12 +348,12 @@ const data = [
     image: '283A4307.jpg',
     price: 1,
   },
-  {
-    category: 'Bakery',
-    item: 'Donut',
-    image: '283A4392.jpg',
-    price: 2,
-  },
+  // {
+  //   category: 'Bakery',
+  //   item: 'Donut',
+  //   image: '283A4392.jpg',
+  //   price: 2,
+  // },
   {
     category: 'Bakery',
     item: 'Apple Pie',
@@ -375,7 +374,7 @@ const data = [
   },
   {
     category: 'Bakery',
-    item: 'Chocolate Donut',
+    item: 'Donut',
     image: '283A4386.jpg',
     price: 2,
   },
@@ -445,12 +444,12 @@ const data = [
     image: '283A0293.JPG',
     price: 3,
   },
-  {
-    category: 'Slice cakes',
-    item: 'banana chocolate Malaga',
-    image: '283A0293.JPG',
-    price: 3,
-  },
+  // {
+  //   category: 'Slice cakes',
+  //   item: 'banana chocolate Malaga',
+  //   image: '283A0293.JPG',
+  //   price: 3,
+  // },
   {
     category: 'magnolia',
     item: 'Magnolia strawberry',

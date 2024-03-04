@@ -16,7 +16,10 @@ export default function Category() {
       <div className='flex flex-wrap gap-y-5 mt-5 md:mt-5'>
         {getItemsByCategory(reverseSlugGenerator(slug)).map(
           (category, i: number) => (
-            <div key={i} className='w-[48%] md:w-[30%] lg:w-[24%] mx-auto'>
+            <div
+              key={i}
+              className='w-[48%] md:w-[30%] lg:w-[24%] mx-auto bg-black rounded-xl'
+            >
               <RestaurantItem item={category} />
             </div>
           )
