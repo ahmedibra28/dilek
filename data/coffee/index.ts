@@ -255,7 +255,7 @@ const data = [
     category: 'Smoothie',
     item: 'Peach Smoothie',
     description: 'yogurt powder monin, peach puree, milk , ice',
-    image: '283A0297.JPG',
+    image: '283A03400.JPG',
     price: 3,
   },
   {

@@ -296,7 +296,7 @@ const data = [
   {
     category: 'BURGERS ',
     item: 'Cheese Burger',
-    image: '283A0349.JPG',
+    image: '283A03499.JPG',
     price: 6.5,
     description:
       'meatball, burger bread, pickle, onion, tomato, lettuce, french fries, ketchup, mayonnaise, cheddar cheese',
@@ -319,7 +319,7 @@ const data = [
   {
     category: 'WRAPS AND SANDWICHES',
     item: 'Grilled Meatball Sandwich',
-    image: '283A0205.JPG',
+    image: '283A02055.JPG',
     price: 3.5,
     description: 'meatball,  vegetables,  french fries, sandwich bread',
   },

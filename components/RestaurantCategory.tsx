@@ -15,7 +15,7 @@ const RestaurantCategory = ({ label }: { label: string }) => {
     { label: 'CHICKEN MENU', image: baseUrl + '283A0405.JPG' },
     { label: 'MEAT MENU', image: baseUrl + '283A0173.JPG' },
     { label: 'SPECIAL PIZZA', image: baseUrl + '283A9960.JPG' },
-    { label: 'BURGERS ', image: baseUrl + '283A0349.JPG' },
+    { label: 'BURGERS ', image: baseUrl + '283A0354.JPG' },
     { label: 'WRAPS AND SANDWICHES', image: baseUrl + '283A0199.JPG' },
     { label: 'DRINKS', image: baseUrl + '283A9897.JPG' },
   ]
