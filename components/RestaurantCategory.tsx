@@ -2,8 +2,8 @@ import React from 'react'
 import BlurImage from './BlurImage'
 
 const RestaurantCategory = ({ label }: { label: string }) => {
-  // const noImageAvailable =
-  //   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
+  const noImageAvailable =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
 
   const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/dilek/'
 
@@ -18,6 +18,9 @@ const RestaurantCategory = ({ label }: { label: string }) => {
     { label: 'BURGERS ', image: baseUrl + '283A0354.JPG' },
     { label: 'WRAPS AND SANDWICHES', image: baseUrl + '283A0199.JPG' },
     { label: 'DRINKS', image: baseUrl + '283A9897.JPG' },
+    { label: 'DONER MENU', image: noImageAvailable },
+    { label: 'MEAT KEBAB MENU', image: noImageAvailable },
+    { label: 'CHICKEN MENU KEBAB', image: baseUrl + '283A0405.JPG' },
   ]
 
   const item = categories?.find(
