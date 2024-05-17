@@ -2,6 +2,7 @@ const data = [
   {
     category: 'BREAKFAST',
     item: 'Mixed Turkish Breakfast',
+    image: 'mixed breakfast.jpg',
     description:
       'kol börek,  boiled egg, carrot cake,  feta cheese, mozarella cheese, french fries, jam,  butter,  honey, cream shockella,  black olives,  green olives,  salami, tomato, cucumber, poğaça (açma, simit), menemen, bread and  Turkish tea',
     price: 10,
@@ -67,7 +68,7 @@ const data = [
     category: 'BREAKFAST',
     item: 'Simit',
     description: 'bur, sokor, cusbo, saliid cadey, margarine, sisin',
-    image: '283A4307.JPG',
+    image: '283A4307.jpg',
     price: 1,
   },
   {
@@ -82,8 +83,8 @@ const data = [
     item: 'Extras',
     description:
       'kol börek,  feta cheese, mozarella cheese, french fries, jam,  butter,  honey, cream shockella,  black olives,  green olives,  salami, tomato, cucumber.',
-    image: 'Extras.jpg',
-    price: 0,
+    image: 'Extras.jpg', // check image letter
+    price: 1.5,
   },
   {
     category: 'STATER SOUP',
@@ -154,7 +155,7 @@ const data = [
   {
     category: 'MEAT KEBAB MENU',
     item: 'Mixed kebab',
-    image: 'CHICKEN WINGS.jpg', //DSC03466.JPG
+    image: 'DSC03466.JPG',
     description:
       'Meat doner, chicken shish, chicken wings shish, Adana kebab, lamb shish',
     price: '$15.00',
@@ -162,14 +163,14 @@ const data = [
   {
     category: 'MEAT KEBAB MENU',
     item: 'Adana kebab',
-    image: 'adana kebab.JPG', // DSC03430.JPG
+    image: 'DSC03430.JPG',
     description: 'meat,  tomato, pepper,  onion, rice, lavash',
     price: '$8.00',
   },
   {
     category: 'MEAT KEBAB MENU',
     item: 'Urfa kebab',
-    image: 'urfa kebab.JPG', //DSC03430.JPG
+    image: 'DSC03430.JPG',
     description: 'meat, tomato,  pepper, onion, rice,  lavash',
     price: '$8.00',
   },
@@ -184,14 +185,14 @@ const data = [
   {
     category: 'MEAT KEBAB MENU',
     item: 'Lamb shish',
-    image: 'Lamb shish.JPG',
+    image: 'lamb shish.jpg',
     description: 'Meat,  tomato, pepper,  onion,  rice, lavash',
     price: '$10.50',
   },
   {
     category: 'MEAT KEBAB MENU',
     item: 'Lamb liver shish',
-    image: 'lamb liver shish.JPG',
+    image: 'lamb liver shish.jpg',
     description: 'liver, tail fat, tomato, pepper, onion, rice,  lavash',
     price: '$8.50',
   },
@@ -248,7 +249,7 @@ const data = [
   {
     category: 'CHICKEN MENU KEBAB',
     item: 'Chicken sac tava',
-    image: 'Chicken sac tava.jpg', // DSC03418.JPG
+    image: 'DSC03418.JPG',
     description: 'chicken, rice, pepper, tomato, onion, pide bread',
     price: 7,
   },
@@ -412,14 +413,14 @@ const data = [
     item: 'Meat DONER DURUM',
     description: 'meat, tomato, onion, pepper, french fries',
     price: '$6.50',
-    image: '283A0154.JPG', // 283A0156.JPG
+    image: '283A0156 (1).JPG',
   },
   {
     category: 'DURUM',
     item: 'Chicken DONER DURUM',
     description: 'chicken, tomato, onion, pepper, french fries',
     price: '$6.00',
-    image: '283A02055.JPG', // 283A0122.JPG
+    image: '283A0122 (1).JPG',
   },
   {
     category: 'DURUM',
@@ -445,21 +446,21 @@ const data = [
   {
     category: 'DURUM',
     item: 'Lamb shish DURUM',
-    image: 'Lamb shish.JPG', // 283A0156.JPG
+    image: '283A0156.JPG',
     description: 'lamb meat, tomato, onion, pepper, french fries',
     price: '$6.50',
   },
   {
     category: 'DURUM',
     item: 'Chicken shish DURUM',
-    image: 'chicken shish.JPG', // 283A0122.JPG
+    image: 'chicken shish.jpg',
     description: 'chicken, tomato, onion, pepper, french fries',
     price: '$6.00',
   },
   {
     category: 'DURUM',
     item: 'Lamb liver DURUM',
-    image: 'Lamb shish.JPG', // 283A0156.JPG
+    image: '283A0156.JPG',
     description: 'liver, tail fat, tomato, onion, pepper, french fries',
     price: '$6.00',
   },
