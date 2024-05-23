@@ -228,7 +228,7 @@ const data = [
   {
     category: 'CHICKEN MENU KEBAB',
     item: 'Chicken chops',
-    image: 'CHICKEN CHOPS.jpg',
+    image: 'chicken chops.jpg',
     description: 'chicken,  french fries,  sunflower oil, salt, rice',
     price: 8,
   },
@@ -242,7 +242,7 @@ const data = [
   {
     category: 'CHICKEN MENU KEBAB',
     item: 'Chicken wings',
-    image: 'CHICKEN WINGS.jpg',
+    image: 'chicken wings.jpg',
     description:
       'chicken, french fries, mozarella cheese, milk, flour,  salt, sunflower oil, rice',
     price: 8,
