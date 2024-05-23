@@ -1,7 +1,7 @@
 const data = [
   {
     category: 'BREAKFAST',
-    item: 'Mixed Turkish Breakfast',
+    item: 'Mixed Turkish Breakfast for (2)',
     image: 'mixed breakfast.jpg',
     description:
       'kol börek,  boiled egg, carrot cake,  feta cheese, mozarella cheese, french fries, jam,  butter,  honey, cream shockella,  black olives,  green olives,  salami, tomato, cucumber, poğaça (açma, simit), menemen, bread and  Turkish tea',
@@ -39,7 +39,7 @@ const data = [
   {
     category: 'BREAKFAST',
     item: 'Shakshuka cheese',
-    image: '283A0358.JPG',
+    image: '283A0381.JPG',
     description: 'tomato,  pepper, eggs,  sunflower oil,  salt, cheese.',
     price: 3.5,
   },
@@ -54,14 +54,14 @@ const data = [
     category: 'BREAKFAST',
     item: 'Acma ',
     description: 'Plain,  Feta cheese, Mozzarella cheese, Olives.',
-    image: '283A4318.JPG',
+    image: '283A4318.jpg',
     price: 1.25,
   },
   {
     category: 'BREAKFAST',
     item: 'Pogaca',
     description: 'Plain,  Feta cheese, Mozzarella cheese, Olives.',
-    image: '283A4269.JPG',
+    image: '283A4404.jpg',
     price: 1.25,
   },
   {
@@ -83,18 +83,18 @@ const data = [
     item: 'Extras',
     description:
       'kol börek,  feta cheese, mozarella cheese, french fries, jam,  butter,  honey, cream shockella,  black olives,  green olives,  salami, tomato, cucumber.',
-    image: 'Extras.jpg', // check image letter
+    image: 'Extras.jpg',
     price: 1.5,
   },
   {
-    category: 'STATER SOUP',
+    category: 'STATER',
     item: 'Strained Lentil Soup ',
     description: ' lentil,  flour,  salt,  sunflower oil, tumeric',
     image: '283A0336.JPG',
     price: 3,
   },
   {
-    category: 'STATER SOUP',
+    category: 'STATER',
     item: 'Vegetable Chicken Soup',
     description: 'chicken, carrot, salt, flour, sunflower oil, cream',
     image: '283A8578.JPG',
@@ -151,6 +151,7 @@ const data = [
     item: 'Meat DONER iskender ',
     description: 'DONER meat, youghurt, iskender sauce, bread, butter',
     price: '$11.00',
+    image: 'DSC09863.JPG',
   },
   {
     category: 'MEAT KEBAB MENU',
@@ -177,7 +178,7 @@ const data = [
   {
     category: 'MEAT KEBAB MENU',
     item: 'Beyti kebab',
-    image: 'beyti kebab.JPG',
+    image: 'DSC00019.JPG',
     description:
       'meat,  youghurt, tomato paste, tomato,  pepper, onion, rice, lavash',
     price: '$9.00',
@@ -256,43 +257,43 @@ const data = [
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Lahmacun',
-    image: 'Lahmacun.jpg',
+    image: 'DSC09891.JPG',
     price: 3.5,
   },
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Minced meat Pide',
-    image: 'minced meat pide.jpg',
+    image: 'DSC09913.JPG',
     price: 8,
   },
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Meat pide',
-    image: 'meat pide.JPG',
+    image: 'DSC09975.JPG',
     price: 9,
   },
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Cheese pide',
-    image: 'cheese pide.png',
+    image: 'DSC09920.JPG',
     price: 7,
   },
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Mixed pide',
-    image: 'Mixed pide.jpg',
+    image: 'DSC09980.JPG',
     price: 9,
   },
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Mediterranean pide',
-    image: 'Mediterranean pide.jpg',
+    image: 'DSC09930.JPG',
     price: 7,
   },
   {
     category: 'LAHMACUN AND PIDE',
     item: 'Vegetable pide',
-    image: 'Lahmacun.JPG', // image required
+    image: 'DSC09936.JPG',
     price: 7,
   },
   {
@@ -453,7 +454,7 @@ const data = [
   {
     category: 'DURUM',
     item: 'Chicken shish DURUM',
-    image: 'chicken shish.jpg',
+    image: '283A0122.JPG',
     description: 'chicken, tomato, onion, pepper, french fries',
     price: '$6.00',
   },
@@ -502,6 +503,7 @@ const noImageAvailable =
 export const getItems = () => {
   const imageBaseUrl =
     'https://farshaxan.blr1.cdn.digitaloceanspaces.com/dilek/'
+
   return data?.map((item) => ({
     ...item,
     image: item?.image ? imageBaseUrl + item.image : noImageAvailable,
