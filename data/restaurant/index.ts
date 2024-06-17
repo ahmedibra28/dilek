@@ -137,7 +137,7 @@ const data = [
     item: 'Chicken DONER plate',
     description: 'DONER meat, rice, tomato, pepper, onion, french fries',
     image: 'DSC00036.JPG',
-    price: 8.0,
+    price: 8,
   },
   {
     category: 'DONER MENU',
@@ -150,7 +150,7 @@ const data = [
     category: 'DONER MENU',
     item: 'Meat DONER iskender ',
     description: 'DONER meat, youghurt, iskender sauce, bread, butter',
-    price: 11.0,
+    price: 11,
     image: 'DSC09863.JPG',
   },
   {
@@ -159,28 +159,29 @@ const data = [
     image: 'DSC03466.JPG',
     description:
       'Meat doner, chicken shish, chicken wings shish, Adana kebab, lamb shish',
-    price: 15.0,
+    price: 15,
   },
   {
     category: 'MEAT KEBAB MENU',
     item: 'Adana kebab',
     image: 'DSC03430.JPG',
     description: 'meat,  tomato, pepper,  onion, rice, lavash',
-    price: 8.0,
+    price: 8,
   },
   {
     category: 'MEAT KEBAB MENU',
     item: 'Urfa kebab',
     image: 'DSC03430.JPG',
     description: 'meat, tomato,  pepper, onion, rice,  lavash',
-    price: 8.0,
+    price: 8,
   },
   {
     category: 'MEAT KEBAB MENU',
     item: 'Beyti kebab',
     image: 'DSC00019.JPG',
-    description: '',
-    price: 9.0,
+    description:
+      'meat,  youghurt, tomato paste, cheese, butter, tomato,  pepper, rice, lavash',
+    price: 9,
   },
   {
     category: 'MEAT KEBAB MENU',
@@ -201,7 +202,7 @@ const data = [
     item: 'Grilled Meatballs',
     description: 'meat, tomato, pepper, onion, bread',
     image: '283A0179.JPG',
-    price: 8.0,
+    price: 8,
   },
   {
     category: 'MEAT KEBAB MENU',
@@ -215,7 +216,7 @@ const data = [
     item: 'Meat sac tava',
     image: 'DSC03418.JPG',
     description: 'meat, rice, pepper, tomato, onion, pide bread',
-    price: 8.0,
+    price: 8,
   },
   {
     category: 'CHICKEN MENU KEBAB',
@@ -382,7 +383,7 @@ const data = [
     description:
       'chicekn, burger bread, pickle,onion, tomato, lettuce,  french fries, ketchup, moyannaise',
     image: '283A0340.JPG',
-    price: 6.0,
+    price: 6,
   },
   {
     category: 'BURGERS ',
@@ -398,7 +399,7 @@ const data = [
     description:
       'meatball, burger bread, pickle, onion, tomato, lettuce, french fries, ketchup, mayonnaise, cheddar cheese',
     image: 'cheese Burger.JPG',
-    price: 7.0,
+    price: 7,
   },
   {
     category: 'BURGERS ',
@@ -419,7 +420,7 @@ const data = [
     category: 'DURUM',
     item: 'Chicken DONER DURUM',
     description: 'chicken, tomato, onion, pepper, french fries',
-    price: 6.0,
+    price: 6,
     image: '283A0122 (1).JPG',
   },
   {
@@ -455,14 +456,14 @@ const data = [
     item: 'Chicken shish DURUM',
     image: '283A0122.JPG',
     description: 'chicken, tomato, onion, pepper, french fries',
-    price: 6.0,
+    price: 6,
   },
   {
     category: 'DURUM',
     item: 'Lamb liver DURUM',
     image: '283A0156.JPG',
     description: 'liver, tail fat, tomato, onion, pepper, french fries',
-    price: 6.0,
+    price: 6,
   },
   {
     category: 'DRINKS',
