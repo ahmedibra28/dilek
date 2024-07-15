@@ -35,7 +35,7 @@ const CoffeeCategory = ({ label }: { label: string }) => {
       image: `https://farshaxan.blr1.cdn.digitaloceanspaces.com/silver/283A2813.JPG`,
     },
     {
-      label: 'Bakery',
+      label: 'Bakery products',
       image:
         'https://www.snackandbakery.com/ext/resources/images/bakeryproducts.jpg?1432238179',
     },
@@ -61,9 +61,11 @@ const CoffeeCategory = ({ label }: { label: string }) => {
       image: dilekBaseUrl + 'Slice cakes.JPG',
     },
     { label: 'cheesecake', image: dilekBaseUrl + '283A0323.JPG' },
-    { label: 'Cakes', image: dilekBaseUrl + 'Cake.jpg' },
+    { label: 'Cakes', image: dilekBaseUrl + 'CAKE.jpg' },
     { label: 'Cookies', image: dilekBaseUrl + 'Cookies.jpg' },
     { label: 'Pastries', image: dilekBaseUrl + 'Pastries.JPG' },
+    { label: 'Birthday cakes', image: dilekBaseUrl + 'CAKE.jpg' },
+    { label: 'Baklava', image: dilekBaseUrl + 'Baklava.JPG' },
   ]
 
   const item = categories?.find(
