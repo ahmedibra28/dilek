@@ -46,7 +46,7 @@ const CoffeeCategory = ({ label }: { label: string }) => {
     },
     {
       label: 'Turkish Milky Desserts',
-      image: dilekBaseUrl + 'Turkish Milk Desserts.jpg',
+      image: dilekBaseUrl + 'Category Turkish Milk Dessert.JPG',
     },
     {
       label: 'Magnolia',
@@ -61,6 +61,9 @@ const CoffeeCategory = ({ label }: { label: string }) => {
       image: dilekBaseUrl + 'Slice cakes.JPG',
     },
     { label: 'cheesecake', image: dilekBaseUrl + '283A0323.JPG' },
+    { label: 'Cakes', image: dilekBaseUrl + 'Cake.jpg' },
+    { label: 'Cookies', image: dilekBaseUrl + 'Cookies.jpg' },
+    { label: 'Pastries', image: dilekBaseUrl + 'Pastries.JPG' },
   ]
 
   const item = categories?.find(
