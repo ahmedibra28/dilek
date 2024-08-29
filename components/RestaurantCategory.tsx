@@ -20,6 +20,9 @@ const RestaurantCategory = ({ label }: { label: string }) => {
     { label: 'BURGERS ', image: baseUrl + '283A0354.JPG' },
     { label: 'DURUM', image: baseUrl + '283A0156 (1).JPG' },
     { label: 'DRINKS', image: baseUrl + '283A9897.JPG' },
+    { label: 'HOT DRINKS', image: baseUrl + '283A9587.JPG' },
+    { label: 'COLD DRINKS', image: baseUrl + '283A0376.JPG' },
+    { label: 'DESSERTS', image: baseUrl + '283A8873.JPG' },
   ]
 
   const item = categories?.find(

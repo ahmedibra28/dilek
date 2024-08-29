@@ -64,7 +64,7 @@ const CoffeeCategory = ({ label }: { label: string }) => {
     { label: 'Cakes', image: dilekBaseUrl + 'CAKE.jpg' },
     { label: 'Cookies', image: dilekBaseUrl + 'Cookies.jpg' },
     { label: 'Pastries', image: dilekBaseUrl + 'Pastries.JPG' },
-    { label: 'Birthday cakes', image: dilekBaseUrl + 'CAKE.jpg' },
+    { label: 'Birthday cakes', image: dilekBaseUrl + '283A0088.JPG' },
     { label: 'Baklava', image: dilekBaseUrl + 'Baklava.JPG' },
   ]
 
