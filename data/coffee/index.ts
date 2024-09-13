@@ -291,13 +291,13 @@ const data = [
   {
     category: 'Bakery products',
     item: 'Mini Sandwich',
-    image: 'DSC00012.JPG',
+    image: 'Mini Sandwich.JPG',
     price: 1.5,
   },
   {
     category: 'Bakery products',
     item: 'Tahini Bun',
-    image: 'DSC00210.JPG',
+    image: 'Tahini Bun.JPG',
     price: 2,
   },
   {
@@ -327,31 +327,31 @@ const data = [
   {
     category: 'Bakery products',
     item: 'Pogaca Olive',
-    image: 'DSC00111.JPG',
+    image: 'Pogaca Olive.JPG',
     price: 1.25,
   },
   {
     category: 'Bakery products',
     item: 'Acma Plain',
-    image: 'DSC00126.JPG',
+    image: 'Acma Plain.JPG',
     price: 1,
   },
   {
     category: 'Bakery products',
     item: 'Acma Mozarella Cheese',
-    image: 'DSC00026.JPG',
+    image: 'Acma Mozarella Cheese.JPG',
     price: 1.25,
   },
   {
     category: 'Bakery products',
     item: 'Acma Feta Cheese',
-    image: 'DSC00117.JPG',
+    image: 'Acma Feta Cheese.JPG',
     price: 1.25,
   },
   {
     category: 'Bakery products',
     item: 'Acma Olive',
-    image: 'DSC00129.JPG',
+    image: 'Acma Olive.JPG',
     price: 1.25,
   },
   {
@@ -375,7 +375,7 @@ const data = [
   {
     category: 'Bakery products',
     item: 'Pizza',
-    image: 'DSC00120.JPG',
+    image: 'Pizza.jpg',
     price: 2,
   },
   {
@@ -387,43 +387,43 @@ const data = [
   {
     category: 'Pastries',
     item: 'Trilice Caramel',
-    image: 'DSC00271.JPG',
+    image: 'Trilice Caramel.JPG',
     price: 3,
   },
   {
     category: 'Pastries',
     item: 'Trilice Lotus',
-    image: 'DSC00020.JPG',
+    image: 'Trilice Lotus.JPG',
     price: 3,
   },
   {
     category: 'Pastries',
     item: 'Éclair (Big)',
-    image: 'DSC00244.JPG',
+    image: 'Éclair (Big).JPG',
     price: 2,
   },
   {
     category: 'Pastries',
     item: 'Éclair (Small)',
-    image: 'DSC00244.JPG',
+    image: 'Éclair (Small).JPG',
     price: 1.5,
   },
   {
     category: 'Pastries',
     item: 'French Eclair',
-    image: 'DSC00251.JPG',
+    image: 'French Eclair.JPG',
     price: 2,
   },
   {
     category: 'Pastries',
     item: 'Donut',
-    image: 'DSC00100.JPG',
+    image: 'Donut.JPG',
     price: 2,
   },
   {
     category: 'Pastries',
     item: 'Berliner',
-    image: 'DSC00058.JPG',
+    image: 'Berliner.JPG',
     price: 2,
   },
   {
@@ -441,7 +441,7 @@ const data = [
   {
     category: 'Pastries',
     item: 'Sufle',
-    image: 'DSC00081.JPG',
+    image: 'Sufle.JPG',
     price: 3,
   },
   {
@@ -453,13 +453,13 @@ const data = [
   {
     category: 'Pastries',
     item: 'Sekerpare',
-    image: 'DSC00091.JPG',
+    image: 'Sekerpare.JPG',
     price: 1.5,
   },
   {
     category: 'Pastries',
     item: 'Mango Pie',
-    image: 'DSC00228.JPG',
+    image: 'Mango Pie.JPG',
     price: 2,
   },
   {
@@ -471,19 +471,19 @@ const data = [
   {
     category: 'Pastries',
     item: 'Revani',
-    image: '283A9292.JPG',
+    image: 'Revani.JPG',
     price: 2,
   },
   {
     category: 'Pastries',
     item: 'Izmir Bombası',
-    image: '283A9312.JPG',
+    image: 'Izmir Bombası.JPG',
     price: 2,
   },
   {
     category: 'Pastries',
     item: 'Pürüzyen',
-    image: '283A9296.JPG',
+    image: 'Pürüzyen.JPG',
     price: 2,
   },
   {
@@ -657,61 +657,61 @@ const data = [
   {
     category: 'Cookies',
     item: 'Salty Cookies',
-    image: 'DSC00116.JPG',
+    image: 'Salty Cookies.JPG',
     price: 14,
   },
   {
     category: 'Cookies',
     item: 'Sweet Cookies',
-    image: 'DSC00106.JPG',
+    image: 'Sweet Cookies.JPG',
     price: 14,
   },
   {
     category: 'Cookies',
     item: 'Orange Cookies',
-    image: '283A4277.CR2',
+    image: 'Orange Cookies.jpg',
     price: 1.5,
   },
   {
     category: 'Baklava',
     item: 'Baklava Pistachio',
-    image: 'DSC00234.JPG',
+    image: 'Baklava Pistachio.JPG',
     price: 5.5,
   },
   {
     category: 'Baklava',
     item: 'Baklava Walnut',
-    image: 'DSC00069.JPG',
+    image: 'Baklava Walnut.JPG',
     price: 4,
   },
   {
     category: 'Baklava',
     item: 'Baklava Pistachio Roll',
-    image: 'DSC09878.JPG',
+    image: 'Baklava Pistachio Roll.JPG',
     price: 7.5,
   },
   {
     category: 'Baklava',
     item: 'Baklava Walnut Roll',
-    image: 'DSC00062.JPG',
+    image: 'Baklava Walnut Roll.JPG',
     price: 4.5,
   },
   {
     category: 'Baklava',
     item: 'Baklava Pistachio Prenses',
-    image: 'DSC09872.JPG',
+    image: 'Baklava Pistachio Prenses.JPG',
     price: 5.5,
   },
   {
     category: 'Baklava',
     item: 'Baklava Şöbiyet',
-    image: 'DSC09840.JPG',
+    image: 'Baklava Şöbiyet.JPG',
     price: 4.5,
   },
   {
     category: 'Baklava',
     item: 'Cold Baklava',
-    image: 'DSC00266.JPG',
+    image: 'Cold Baklava.JPG',
     price: 4.5,
   },
 ]

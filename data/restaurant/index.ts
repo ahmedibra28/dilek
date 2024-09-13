@@ -229,22 +229,21 @@ const data = [
     category: 'CHICKEN MENU KEBAB',
     item: 'Chicken chops',
     image: 'chicken chops.jpg',
-    description: 'chicken,  french fries,  sunflower oil, salt, rice',
+    description: 'chicken, rice, pepper, onion, tomato.',
     price: 8,
   },
   {
     category: 'CHICKEN MENU KEBAB',
     item: 'Chicken shish',
     image: 'chicken shish.jpg',
-    description: 'chicken,  vegetables, sunflower oil,  salt,  rice',
+    description: 'chicken, rice, pepper, onion, tomato.',
     price: 8,
   },
   {
     category: 'CHICKEN MENU KEBAB',
     item: 'Chicken wings',
     image: 'chicken wings.jpg',
-    description:
-      'chicken, french fries, mozarella cheese, milk, flour,  salt, sunflower oil, rice',
+    description: 'Chicken wings, rice, pepper, onion, tomato.',
     price: 8,
   },
   {
@@ -764,43 +763,43 @@ const data = [
   {
     category: 'Desserts',
     item: 'Trilice Caramel',
-    image: 'DSC00271.JPG',
+    image: 'Trilice Caramel.jpg',
     price: 3,
   },
   {
     category: 'Desserts',
     item: 'Trilice Lotus',
-    image: 'DSC00020.JPG',
+    image: 'Trilice Lotus.jpg',
     price: 3,
   },
   {
     category: 'Desserts',
     item: 'Éclair (Big)',
-    image: 'DSC00244.JPG',
+    image: 'Éclair (Big).jpg',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Éclair (Small)',
-    image: 'DSC00244.JPG',
+    image: 'Éclair (Small).JPG',
     price: 1.5,
   },
   {
     category: 'Desserts',
     item: 'French Eclair',
-    image: 'DSC00251.JPG',
+    image: 'French Eclair.jpg',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Donut',
-    image: 'DSC00100.JPG',
+    image: 'Donut.JPG',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Berliner',
-    image: 'DSC00058.JPG',
+    image: 'Berliner.JPG',
     price: 2,
   },
   {
@@ -818,7 +817,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Sufle',
-    image: 'DSC00081.JPG',
+    image: 'Sufle.JPG',
     price: 3,
   },
   {
@@ -836,7 +835,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Mango Pie',
-    image: 'DSC00228.JPG',
+    image: 'Mango Pie.JPG',
     price: 2,
   },
   {
@@ -848,19 +847,19 @@ const data = [
   {
     category: 'Desserts',
     item: 'Revani',
-    image: '283A9292.JPG',
+    image: 'Revani.jpg',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Izmir Bombası',
-    image: '283A9312.JPG',
+    image: 'Izmir Bombası.JPG',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Pürüzyen',
-    image: '283A9296.JPG',
+    image: 'Pürüzyen.JPG',
     price: 2,
   },
   {
@@ -1016,49 +1015,49 @@ const data = [
   {
     category: 'Desserts',
     item: 'Orange Cookies',
-    image: '283A4277.CR2',
+    image: 'Orange Cookies.jpg',
     price: 1.5,
   },
   {
     category: 'Desserts',
     item: 'Baklava Pistachio',
-    image: 'DSC00234.JPG',
+    image: 'Baklava Pistachio.JPG',
     price: 5.5,
   },
   {
     category: 'Desserts',
     item: 'Baklava Walnut',
-    image: 'DSC00069.JPG',
+    image: 'Baklava Walnut.JPG',
     price: 4,
   },
   {
     category: 'Desserts',
     item: 'Baklava Pistachio Roll',
-    image: 'DSC09878.JPG',
+    image: 'Baklava Pistachio Roll.JPG',
     price: 7.5,
   },
   {
     category: 'Desserts',
     item: 'Baklava Walnut Roll',
-    image: 'DSC00062.JPG',
+    image: 'Baklava Walnut Roll.JPG',
     price: 4.5,
   },
   {
     category: 'Desserts',
     item: 'Baklava Pistachio Prenses',
-    image: 'DSC09872.JPG',
+    image: 'Baklava Pistachio Prenses.JPG',
     price: 5.5,
   },
   {
     category: 'Desserts',
     item: 'Baklava Şöbiyet',
-    image: 'DSC09840.JPG',
+    image: 'Baklava Şöbiyet.JPG',
     price: 4.5,
   },
   {
     category: 'Desserts',
     item: 'Cold Baklava',
-    image: 'DSC00266.JPG',
+    image: '',
     price: 4.5,
   },
 ]
