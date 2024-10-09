@@ -398,14 +398,14 @@ const data = [
   },
   {
     category: 'Pastries',
-    item: 'Éclair (Big)',
-    image: 'Éclair (Big).JPG',
+    item: 'Eclair (Big)',
+    image: 'Eclair (Big).JPG',
     price: 2,
   },
   {
     category: 'Pastries',
-    item: 'Éclair (Small)',
-    image: 'Éclair (Small).JPG',
+    item: 'Eclair (Small)',
+    image: 'Eclair (Small).JPG',
     price: 1.5,
   },
   {
@@ -476,14 +476,14 @@ const data = [
   },
   {
     category: 'Pastries',
-    item: 'Izmir Bombası',
-    image: 'Izmir Bombası.JPG',
+    item: 'Izmir Bombasi',
+    image: 'Izmir Bombas.JPG',
     price: 2,
   },
   {
     category: 'Pastries',
-    item: 'Pürüzyen',
-    image: 'Pürüzyen.JPG',
+    item: 'Puruzyen',
+    image: 'Puruzyen.JPG',
     price: 2,
   },
   {
@@ -645,7 +645,7 @@ const data = [
   {
     category: 'Baklava',
     item: 'Baklava Walnut Roll',
-    image: 'Baklava Walnut Roll.jpg',
+    image: 'Baklava Walnut Roll.JPG',
     price: 4.5,
   },
   {
@@ -656,8 +656,8 @@ const data = [
   },
   {
     category: 'Baklava',
-    item: 'Baklava Şöbiyet',
-    image: 'Baklava Şöbiyet.JPG',
+    item: 'Baklava Sobiyet',
+    image: 'Baklava Sobiyet.JPG',
     price: 4.5,
   },
   {

@@ -774,14 +774,14 @@ const data = [
   },
   {
     category: 'Desserts',
-    item: 'Éclair (Big)',
-    image: 'Éclair (Big).JPG',
+    item: 'Eclair (Big)',
+    image: 'Eclair (Big).JPG',
     price: 2,
   },
   {
     category: 'Desserts',
-    item: 'Éclair (Small)',
-    image: 'Éclair (Small).JPG',
+    item: 'Eclair (Small)',
+    image: 'Eclair (Small).JPG',
     price: 1.5,
   },
   {
@@ -852,14 +852,14 @@ const data = [
   },
   {
     category: 'Desserts',
-    item: 'Izmir Bombası',
-    image: 'Izmir Bombası.JPG',
+    item: 'Izmir Bombasi',
+    image: 'Izmir Bombasi.JPG',
     price: 2,
   },
   {
     category: 'Desserts',
-    item: 'Pürüzyen',
-    image: 'Pürüzyen.JPG',
+    item: 'Puruzyen',
+    image: 'Puruzyen.JPG',
     price: 2,
   },
   {
@@ -1002,8 +1002,8 @@ const data = [
   },
   {
     category: 'Desserts',
-    item: 'Baklava Şöbiyet',
-    image: 'Baklava Şöbiyet.JPG',
+    item: 'Baklava Sobiyet',
+    image: 'Baklava Sobiyet.JPG',
     price: 4.5,
   },
   {
