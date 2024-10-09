@@ -10,7 +10,6 @@ const RestaurantCategory = ({ label }: { label: string }) => {
   const categories = [
     { label: 'BREAKFAST', image: baseUrl + '283A0396.JPG' },
     { label: 'STATER', image: baseUrl + '283A0336.JPG' },
-    { label: 'SALADS', image: baseUrl + '283A8606.JPG' },
     { label: 'DONER MENU', image: baseUrl + 'DSC00041.JPG' },
     { label: 'MEAT KEBAB MENU', image: baseUrl + 'DSC03466.JPG' },
     { label: 'CHICKEN MENU KEBAB', image: baseUrl + '283A0405.JPG' },

@@ -2,7 +2,7 @@ const data = [
   {
     category: 'BREAKFAST',
     item: 'Mixed Turkish Breakfast for (2)',
-    image: 'mixed breakfast.jpg',
+    image: 'mixed.jpg',
     description:
       'kol börek, boiled egg, feta cheese, mozarella cheese, french fries, jam, butter, honey, cream shockella, black olives, green olives, salami, tomato, cucumber, poğaça (açma, simit), bread and Turkish tea',
     price: 20,
@@ -101,7 +101,7 @@ const data = [
     price: 3,
   },
   {
-    category: 'SALADS',
+    category: 'STATER',
     item: 'Mediterranean Salad',
     description:
       'feta cheese,  limon, cucumber,  tomato, slices olives,  sweet corn,  lettuce, white cabbage, Red cabbage, olive oil,  pomegranate syrup',
@@ -109,7 +109,7 @@ const data = [
     price: 6,
   },
   {
-    category: 'SALADS',
+    category: 'STATER',
     item: 'Crunchy Chicken Breast Salad',
     description:
       'chicken breast,  panko bread,  limon,  cucumber, tomato,  slices olives, sweet corn,  lettuce,  white cabbage, Red cabbage, olive oil,  pomegranate syrup',
@@ -117,7 +117,7 @@ const data = [
     price: 6,
   },
   {
-    category: 'SALADS',
+    category: 'STATER',
     item: 'Caesar’s Salad with Chicken',
     description:
       'chicken breast,  limon, cucumber,  tomato,  slices olives,  sweet corn,  lettuce, white cabbage, Red cabbage, olive oil, pomegranate syrup',
@@ -125,7 +125,7 @@ const data = [
     price: 6,
   },
   {
-    category: 'SALADS',
+    category: 'STATER',
     item: 'Grilled Meatball Salad',
     description:
       'meatballs,  limon, cucumber,  tomato,  slices olives,  sweet corn, lettuce,  white cabbage, Red cabbage, olive oil,  pomegranate syrup',
@@ -775,7 +775,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Éclair (Big)',
-    image: 'Éclair (Big).jpg',
+    image: 'Éclair (Big).JPG',
     price: 2,
   },
   {
@@ -829,7 +829,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Sekerpare',
-    image: 'DSC00091.JPG',
+    image: 'Sekerpare.JPG',
     price: 1.5,
   },
   {
@@ -847,7 +847,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Revani',
-    image: 'Revani.jpg',
+    image: 'Revani.JPG',
     price: 2,
   },
   {
@@ -871,7 +871,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Cupcake',
-    image: 'DSC00184.JPG',
+    image: 'Cupcake.JPG',
     price: 1.5,
   },
   {
@@ -889,19 +889,19 @@ const data = [
   {
     category: 'Desserts',
     item: 'Carrot cake',
-    image: 'DSC00055.JPG',
+    image: 'Carrot cake.JPG',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Orange cake',
-    image: 'DSC00149.JPG',
+    image: 'Orange cake.JPG',
     price: 2,
   },
   {
     category: 'Desserts',
     item: 'Brownie cake',
-    image: 'DSC00029.JPG',
+    image: 'Brownie cake.JPG',
     price: 2,
   },
   {
@@ -930,30 +930,6 @@ const data = [
   },
   {
     category: 'Desserts',
-    item: 'Mozaic Slice Cake',
-    image: '283A8935.JPG',
-    price: 3,
-  },
-  {
-    category: 'Desserts',
-    item: 'Opera Slice Cake',
-    image: 'DSC00158.JPG',
-    price: 3,
-  },
-  {
-    category: 'Desserts',
-    item: 'Heart Slice Cake',
-    image: '283A0318.JPG',
-    price: 3,
-  },
-  {
-    category: 'Desserts',
-    item: 'Banana Chocolate Malaga',
-    image: 'DSC00200.JPG',
-    price: 3,
-  },
-  {
-    category: 'Desserts',
     item: 'Cheesecake Raspberry',
     image: '283A0323.JPG',
     price: 4,
@@ -972,20 +948,8 @@ const data = [
   },
   {
     category: 'Desserts',
-    item: 'Cheesecake Lemon',
-    image: 'DSC00143.JPG',
-    price: 4,
-  },
-  {
-    category: 'Desserts',
-    item: 'Cheesecake Chocolate',
-    image: 'DSC00128.JPG',
-    price: 4,
-  },
-  {
-    category: 'Desserts',
     item: 'Cheesecake Oreo',
-    image: 'DSC06410.JPG',
+    image: 'DSC00245.JPG',
     price: 4,
   },
   {
@@ -993,18 +957,6 @@ const data = [
     item: 'Roll Cake',
     image: '283A8902.JPG',
     price: 3,
-  },
-  {
-    category: 'Desserts',
-    item: 'Cheese Petifur',
-    image: 'DSC00179.JPG',
-    price: 1.5,
-  },
-  {
-    category: 'Desserts',
-    item: 'Petifur',
-    image: 'DSC00166.JPG',
-    price: 1.5,
   },
   {
     category: 'Desserts',
@@ -1039,7 +991,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Baklava Walnut Roll',
-    image: 'Baklava Walnut Roll.JPG',
+    image: 'Baklava Walnut Roll.jpg',
     price: 4.5,
   },
   {
@@ -1057,7 +1009,7 @@ const data = [
   {
     category: 'Desserts',
     item: 'Cold Baklava',
-    image: '',
+    image: 'DSC00266.JPG',
     price: 4.5,
   },
 ]

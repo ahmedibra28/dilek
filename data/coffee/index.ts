@@ -495,7 +495,7 @@ const data = [
   {
     category: 'Cakes',
     item: 'Cupcake',
-    image: 'DSC00184.JPG',
+    image: 'Cupcake.JPG',
     price: 1.5,
   },
   {
@@ -513,19 +513,19 @@ const data = [
   {
     category: 'Cakes',
     item: 'Carrot cake',
-    image: 'DSC00055.JPG',
+    image: 'Carrot cake.JPG',
     price: 2,
   },
   {
     category: 'Cakes',
     item: 'Orange cake',
-    image: 'DSC00149.JPG',
+    image: 'Orange cake.JPG',
     price: 2,
   },
   {
     category: 'Cakes',
     item: 'Brownie cake',
-    image: 'DSC00029.JPG',
+    image: 'Brownie cake.JPG',
     price: 2,
   },
   {
@@ -554,30 +554,6 @@ const data = [
   },
   {
     category: 'Cakes',
-    item: 'Mozaic Slice Cake',
-    image: '283A8935.JPG',
-    price: 3,
-  },
-  {
-    category: 'Cakes',
-    item: 'Opera Slice Cake',
-    image: 'DSC00158.JPG',
-    price: 3,
-  },
-  {
-    category: 'Cakes',
-    item: 'Heart Slice Cake',
-    image: '283A0318.JPG',
-    price: 3,
-  },
-  {
-    category: 'Cakes',
-    item: 'Banana Chocolate Malaga',
-    image: 'DSC00200.JPG',
-    price: 3,
-  },
-  {
-    category: 'Cakes',
     item: 'Cheesecake Raspberry',
     image: '283A0323.JPG',
     price: 4,
@@ -596,20 +572,8 @@ const data = [
   },
   {
     category: 'Cakes',
-    item: 'Cheesecake Lemon',
-    image: 'DSC00143.JPG',
-    price: 4,
-  },
-  {
-    category: 'Cakes',
-    item: 'Cheesecake Chocolate',
-    image: 'DSC00128.JPG',
-    price: 4,
-  },
-  {
-    category: 'Cakes',
     item: 'Cheesecake Oreo',
-    image: 'DSC06410.JPG',
+    image: 'DSC00245.JPG',
     price: 4,
   },
   {
@@ -617,18 +581,6 @@ const data = [
     item: 'Roll Cake',
     image: '283A8902.JPG',
     price: 3,
-  },
-  {
-    category: 'Cakes',
-    item: 'Cheese Petifur',
-    image: 'DSC00179.JPG',
-    price: 1.5,
-  },
-  {
-    category: 'Cakes',
-    item: 'Petifur',
-    image: 'DSC00166.JPG',
-    price: 1.5,
   },
   {
     category: 'Cakes',
@@ -693,7 +645,7 @@ const data = [
   {
     category: 'Baklava',
     item: 'Baklava Walnut Roll',
-    image: 'Baklava Walnut Roll.JPG',
+    image: 'Baklava Walnut Roll.jpg',
     price: 4.5,
   },
   {
@@ -711,7 +663,7 @@ const data = [
   {
     category: 'Baklava',
     item: 'Cold Baklava',
-    image: 'Cold Baklava.JPG',
+    image: 'DSC00266.JPG',
     price: 4.5,
   },
 ]
