@@ -241,13 +241,6 @@ const data = [
   },
   {
     category: 'CHICKEN MENU KEBAB',
-    item: 'Chicken wings',
-    image: 'chicken wings.jpg',
-    description: 'Chicken wings, rice, pepper, onion, tomato.',
-    price: 8,
-  },
-  {
-    category: 'CHICKEN MENU KEBAB',
     item: 'Chicken sac tava',
     image: 'DSC03418.JPG',
     description: 'chicken, rice, pepper, tomato, onion, pide bread',
@@ -480,7 +473,13 @@ const data = [
   },
   {
     category: 'DRINKS',
-    item: 'Mango ',
+    item: 'Avogado',
+    image: '1I6A5995',
+    price: 2.5,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Mango',
     image: '283A9897.JPG',
     price: 2.5,
   },
@@ -494,6 +493,12 @@ const data = [
     category: 'DRINKS',
     item: 'Watermelon',
     image: '283A9902.JPG',
+    price: 1.75,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Isbaandhays (Spondias)',
+    image: '1I6A6022',
     price: 1.75,
   },
   {

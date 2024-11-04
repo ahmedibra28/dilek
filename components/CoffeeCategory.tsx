@@ -66,6 +66,7 @@ const CoffeeCategory = ({ label }: { label: string }) => {
     { label: 'Pastries', image: dilekBaseUrl + 'Pastries.JPG' },
     { label: 'Birthday cakes', image: dilekBaseUrl + '283A0088.JPG' },
     { label: 'Baklava', image: dilekBaseUrl + 'Baklava.JPG' },
+    { label: 'DRINKS', image: dilekBaseUrl + '283A9897.JPG' },
   ]
 
   const item = categories?.find(

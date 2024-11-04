@@ -379,6 +379,48 @@ const data = [
     price: 2,
   },
   {
+    category: 'DRINKS',
+    item: 'Isbaandhees(Spondias)',
+    image: '1I6A6022',
+    price: 1.75,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Avocado',
+    price: 2.5,
+    image: '1I6A5995',
+  },
+  {
+    category: 'DRINKS',
+    item: 'Mango ',
+    image: '283A9897.JPG',
+    price: 2.5,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Orange',
+    image: '283A9929.JPG',
+    price: 2.5,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Watermelon',
+    image: '283A9902.JPG',
+    price: 1.75,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Grey fruit',
+    image: '283A9913.JPG',
+    price: 2,
+  },
+  {
+    category: 'DRINKS',
+    item: 'Lemon',
+    image: '283A9921.JPG',
+    price: 1.75,
+  },
+  {
     category: 'Pastries',
     item: 'Trilice Raspberry',
     image: '283A8870.JPG',
