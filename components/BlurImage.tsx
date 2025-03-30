@@ -30,7 +30,7 @@ export function BlurImage({
       placeholder='blur'
       alt={alt}
       className={className}
-      quality={100}
+      quality={75}
       style={{ objectFit: objectFit }}
       unoptimized
     />
