@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['farshaxan.blr1.cdn.digitaloceanspaces.com',
-            'upload.wikimedia.org',
-            'a.cdn-hotels.com',
-            'www.togethertoeat.com',
-            'realfood.tesco.com',
-            'www.snackandbakery.com',
-            'images.immediate.co.uk'],
+        remotePatterns: [
+            { protocol: 'https', hostname: 'farshaxan.blr1.cdn.digitaloceanspaces.com' },
+            { protocol: 'https', hostname: 'upload.wikimedia.org' },
+            { protocol: 'https', hostname: 'a.cdn-hotels.com' },
+            { protocol: 'https', hostname: 'www.togethertoeat.com' },
+            { protocol: 'https', hostname: 'realfood.tesco.com' },
+            { protocol: 'https', hostname: 'www.snackandbakery.com' },
+            { protocol: 'https', hostname: 'images.immediate.co.uk' },
+        ]
     }
 }
 
