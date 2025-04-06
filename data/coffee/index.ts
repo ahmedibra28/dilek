@@ -57,6 +57,12 @@ const data = [
   },
   {
     category: 'Tea and more',
+    item: 'Green Tea',
+    image: 'DSC09872.JPG',
+    description: 'tea bag , hot water',
+  },
+  {
+    category: 'Tea and more',
     item: 'Somali Tea',
     description: 'tea powder, cinnamon, cardamom , milk',
     image: '283A9684.JPG',
@@ -267,61 +273,43 @@ const data = [
   {
     category: 'Turkish Milky Desserts',
     item: 'Rice Pudding',
-    image: '283A8873.JPG',
+    image: 'DSC00350.JPG',
     price: 2,
   },
   {
     category: 'Turkish Milky Desserts',
     item: 'Kaskul',
-    image: '283A9945.JPG',
+    image: 'DSC00334.JPG',
     price: 2,
-  },
-  {
-    category: 'Turkish Milky Desserts',
-    item: 'kazandibi',
-    image: '283A0306.JPG',
-    price: 2,
-  },
-  {
-    category: 'Turkish Milky Desserts',
-    item: 'Caramel Dream',
-    image: '283A8864.JPG',
-    price: 2,
-  },
-  {
-    category: 'Bakery products',
-    item: 'Mini Sandwich',
-    image: 'Mini Sandwich.JPG',
-    price: 1.5,
   },
   {
     category: 'Bakery products',
     item: 'Tahini Bun',
-    image: 'Tahini Bun.JPG',
+    image: 'DSC00332.JPG',
     price: 2,
   },
   {
     category: 'Bakery products',
     item: 'Simit ',
-    image: '283A4307.jpg',
+    image: 'DSC00282.JPG',
     price: 1,
   },
   {
     category: 'Bakery products',
     item: 'Pogaca Plain',
-    image: '283A4270.jpg',
+    image: 'DSC00575.JPG',
     price: 1,
   },
   {
     category: 'Bakery products',
     item: 'Pogaca Mozarella Cheese',
-    image: '283A4405.jpg',
+    image: 'Pogaca Olive.JPG',
     price: 1.25,
   },
   {
     category: 'Bakery products',
     item: 'Pogaca Feta Cheese',
-    image: 'DSC00111.JPG',
+    image: 'Pogaca Olive.JPG',
     price: 1.25,
   },
   {
@@ -333,7 +321,7 @@ const data = [
   {
     category: 'Bakery products',
     item: 'Acma Plain',
-    image: 'Acma Plain.JPG',
+    image: 'DSC00127',
     price: 1,
   },
   {
@@ -351,32 +339,20 @@ const data = [
   {
     category: 'Bakery products',
     item: 'Acma Olive',
-    image: 'Acma Olive.JPG',
+    image: 'DSC00130.JPG',
     price: 1.25,
   },
   {
     category: 'Bakery products',
     item: 'Borek Minced Beef',
-    image: '283A4389.jpg',
+    image: 'DSC00540.JPG',
     price: 1.5,
   },
   {
     category: 'Bakery products',
-    item: 'Borek Cheese',
-    image: '283A4389.jpg',
+    item: 'Su Boreii',
     price: 1.5,
-  },
-  {
-    category: 'Bakery products',
-    item: 'Borek Potato',
-    image: '283A4389.jpg',
-    price: 1.5,
-  },
-  {
-    category: 'Bakery products',
-    item: 'Pizza',
-    image: 'Pizza.jpg',
-    price: 2,
+    image: 'DSC00540.JPG',
   },
   {
     category: 'DRINKS',
@@ -423,38 +399,32 @@ const data = [
   {
     category: 'Pastries',
     item: 'Trilice Raspberry',
-    image: '283A8870.JPG',
+    image: 'DSC00240.JPG',
     price: 3,
   },
   {
     category: 'Pastries',
     item: 'Trilice Caramel',
-    image: 'Trilice Caramel.JPG',
+    image: 'DSC00278.JPG',
     price: 3,
   },
   {
     category: 'Pastries',
     item: 'Trilice Lotus',
-    image: 'Trilice Lotus.JPG',
+    image: 'DSC00266.JPG',
     price: 3,
   },
   {
     category: 'Pastries',
     item: 'Eclair (Big)',
-    image: 'Eclair (Big).JPG',
+    image: 'DSC00228.JPG',
     price: 2,
   },
   {
     category: 'Pastries',
     item: 'Eclair (Small)',
-    image: 'Eclair (Small).JPG',
+    image: 'DSC00314.JPG',
     price: 1.5,
-  },
-  {
-    category: 'Pastries',
-    item: 'French Eclair',
-    image: 'French Eclair.JPG',
-    price: 2,
   },
   {
     category: 'Pastries',
@@ -464,14 +434,8 @@ const data = [
   },
   {
     category: 'Pastries',
-    item: 'Berliner',
-    image: 'Berliner.JPG',
-    price: 2,
-  },
-  {
-    category: 'Pastries',
     item: 'Magnolia (Oreo)',
-    image: '283A0293.JPG',
+    image: '283A0297.JPG',
     price: 3,
   },
   {
@@ -489,7 +453,7 @@ const data = [
   {
     category: 'Pastries',
     item: 'Basbousa',
-    image: '283A8955.JPG',
+    image: 'DSC00518.JPG',
     price: 1.5,
   },
   {
@@ -506,32 +470,8 @@ const data = [
   },
   {
     category: 'Pastries',
-    item: 'Apple Pie',
-    image: '283A4409.jpg',
-    price: 2,
-  },
-  {
-    category: 'Pastries',
-    item: 'Revani',
-    image: 'Revani.JPG',
-    price: 2,
-  },
-  {
-    category: 'Pastries',
-    item: 'Izmir Bombasi',
-    image: 'Izmir Bombas.JPG',
-    price: 2,
-  },
-  {
-    category: 'Pastries',
-    item: 'Puruzyen',
-    image: 'Puruzyen.JPG',
-    price: 2,
-  },
-  {
-    category: 'Pastries',
     item: 'Cinnamon Role',
-    image: '283A9954.JPG',
+    image: 'DSC00824.JPG',
     price: 2,
   },
   {
@@ -542,14 +482,8 @@ const data = [
   },
   {
     category: 'Cakes',
-    item: 'English cake',
-    image: 'DSC00213.JPG',
-    price: 5,
-  },
-  {
-    category: 'Cakes',
     item: 'Chocolate cake',
-    image: '283A8876.JPG',
+    image: 'DSC00251.JPG',
     price: 2,
   },
   {
@@ -561,73 +495,73 @@ const data = [
   {
     category: 'Cakes',
     item: 'Orange cake',
-    image: 'Orange cake.JPG',
+    image: 'DSC00598.JPG',
     price: 2,
   },
   {
     category: 'Cakes',
     item: 'Brownie cake',
-    image: 'Brownie cake.JPG',
+    image: 'DSC00585.JPG',
     price: 2,
   },
   {
     category: 'Cakes',
     item: 'Pistachio slice cake',
-    image: '283A8908.JPG',
+    image: 'DSC00439.JPG',
+    price: 3,
+  },
+  {
+    item: 'Slice Cake Chocolate',
+    image: 'DSC00465.JPG',
+    category: 'Cakes',
     price: 3,
   },
   {
     category: 'Cakes',
-    item: 'Nescafe Slice Cake',
-    image: '283A8812.JPG',
+    item: 'Caramel slice cake',
+    image: 'DSC00463.JPG',
     price: 3,
   },
   {
     category: 'Cakes',
     item: 'Raspbery Slice Cake',
-    image: '283A8915.JPG',
+    image: 'DSC00479.JPG',
     price: 3,
   },
   {
     category: 'Cakes',
     item: 'Orange Slice Cake',
-    image: '283A8828.JPG',
+    image: 'DSC00422.JPG',
     price: 3,
   },
   {
     category: 'Cakes',
     item: 'Cheesecake Raspberry',
-    image: '283A0323.JPG',
+    image: 'DSC00494.JPG',
     price: 4,
   },
   {
     category: 'Cakes',
     item: 'Cheesecake Caramel',
-    image: '283A0327.JPG',
+    image: 'DSC00548.jpg',
     price: 4,
   },
   {
     category: 'Cakes',
     item: 'Cheesecake Lotus',
-    image: 'DSC00151.JPG',
+    image: 'DSC00548',
     price: 4,
   },
   {
     category: 'Cakes',
     item: 'Cheesecake Oreo',
-    image: 'DSC00245.JPG',
+    image: 'DSC00482.JPG',
     price: 4,
   },
   {
     category: 'Cakes',
-    item: 'Roll Cake',
-    image: '283A8902.JPG',
-    price: 3,
-  },
-  {
-    category: 'Cakes',
     item: 'Tiramisu',
-    image: '283A9276.JPG',
+    image: 'DSC00417.JPG',
     price: 3,
   },
   {
@@ -657,7 +591,7 @@ const data = [
   {
     category: 'Cookies',
     item: 'Sweet Cookies',
-    image: 'Sweet Cookies.JPG',
+    image: 'DSC00633.JPG',
     price: 14,
   },
   {
@@ -669,20 +603,20 @@ const data = [
   {
     category: 'Baklava',
     item: 'Baklava Pistachio',
-    image: 'Baklava Pistachio.JPG',
+    image: 'DSC00393.JPG',
     price: 5.5,
   },
   {
     category: 'Baklava',
     item: 'Baklava Walnut',
-    image: 'Baklava Walnut.JPG',
+    image: 'DSC00299.JPG',
     price: 4,
   },
   {
     category: 'Baklava',
     item: 'Baklava Pistachio Roll',
     image: 'Baklava Pistachio Roll.JPG',
-    price: 7.5,
+    price: 5.5,
   },
   {
     category: 'Baklava',
@@ -699,14 +633,32 @@ const data = [
   {
     category: 'Baklava',
     item: 'Baklava Sobiyet',
-    image: 'Baklava Sobiyet.JPG',
+    image: 'DSC00322.JPG',
     price: 4.5,
   },
   {
     category: 'Baklava',
     item: 'Cold Baklava',
-    image: 'DSC00266.JPG',
+    image: 'DSC00375.JPG',
     price: 4.5,
+  },
+  {
+    category: 'Baklava',
+    item: 'Baklava Saray sarması',
+    price: 4.5,
+    image: 'DSC00308.JPG',
+  },
+  {
+    category: 'Baklava',
+    item: 'Baklava Pistachio Filling',
+    image: 'DSC00292.JPG',
+    price: 7.5,
+  },
+  {
+    category: 'Baklava',
+    item: 'Baklava Sutlu Nuriye',
+    image: 'DSC00300.JPG',
+    price: 5,
   },
 ]
 
