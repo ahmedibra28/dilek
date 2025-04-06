@@ -79,8 +79,8 @@ const CoffeeCategory = ({ label }: { label: string }) => {
         <BlurImage
           src={item?.image!}
           alt={label}
-          width={500}
-          height={500}
+          width={100}
+          height={100}
           className='rounded-xl w-full h-44  shadow-xl'
           objectFit='cover'
         />

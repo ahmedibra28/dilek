@@ -15,8 +15,8 @@ const RestaurantItem = ({ item }: { item: ItemProp }) => {
         <BlurImage
           src={item.image}
           alt={item.item}
-          width={500}
-          height={500}
+          width={100}
+          height={100}
           className='rounded-xl w-full h-full'
         />
       </figure>

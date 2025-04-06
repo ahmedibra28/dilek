@@ -2,6 +2,7 @@ import React from 'react'
 
 // import { getPlaiceholder } from 'plaiceholder'
 import Image from 'next/image'
+import { base64 } from './base64'
 
 export function BlurImage({
   src,
@@ -18,9 +19,6 @@ export function BlurImage({
   className?: string
   objectFit?: any
 }) {
-  const base64 =
-    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAsTAAALEwEAmpwYAAAALUlEQVR4nGNgYGBg+H9rgd//J6ujQWww+H9pefv/UzO2IQS+vUv7cud4JogDAMgDEhA+9jbyAAAAAElFTkSuQmCC'
-
   return (
     <Image
       src={src}
@@ -30,9 +28,10 @@ export function BlurImage({
       placeholder='blur'
       alt={alt}
       className={className}
-      // quality={75}
       style={{ objectFit: objectFit }}
-      // unoptimized
+      quality={10}
+      unoptimized
+      loading='lazy'
     />
   )
 }
