@@ -321,7 +321,7 @@ const data = [
   {
     category: 'Bakery products',
     item: 'Acma Plain',
-    image: 'DSC00127',
+    image: 'DSC00127.JPG',
     price: 1,
   },
   {
@@ -357,14 +357,14 @@ const data = [
   {
     category: 'DRINKS',
     item: 'Isbaandhees(Spondias)',
-    image: '1I6A6022',
+    image: '1I6A6022.JPG',
     price: 1.75,
   },
   {
     category: 'DRINKS',
     item: 'Avocado',
     price: 2.5,
-    image: '1I6A5995',
+    image: '1I6A5995.JPG',
   },
   {
     category: 'DRINKS',
@@ -543,13 +543,13 @@ const data = [
   {
     category: 'Cakes',
     item: 'Cheesecake Caramel',
-    image: 'DSC00548.jpg',
+    image: 'DSC00548.JPG',
     price: 4,
   },
   {
     category: 'Cakes',
     item: 'Cheesecake Lotus',
-    image: 'DSC00548',
+    image: 'DSC00548.JPG',
     price: 4,
   },
   {
