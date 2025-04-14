@@ -208,7 +208,7 @@ const data = [
     category: 'MEAT KEBAB MENU',
     item: 'Lamb Tandoori',
     description: 'lamb meat, rice, pide bread',
-    image: 'Lamb Tandoori.JPG',
+    image: 'DSC00897.JPG',
     price: 10.5,
   },
   {
